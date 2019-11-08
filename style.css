@@ -3,7 +3,7 @@
   }
 
 .grid-item {
-    border: solid 3px blue;
+    border: solid 3px lightgray;
     padding: 8px;
 }
 
@@ -21,3 +21,31 @@ li {
 h1 {
     text-align: center;
 }
+
+img {
+    max-width: 10%;
+    max-height: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 3px;
+  }
+
+  .container {
+      background: #333333;
+      padding: 10px;
+  }
+
+  body {
+      color: white;
+  }
+
+  a:link {
+    color: white;
+  }
+
+  p {
+    line-height: 32px;   /* within paragraph */
+    margin-bottom: 30px; /* between paragraphs */
+    }
