@@ -1,0 +1,23 @@
+.grid-container {
+    display: inline-grid;
+  }
+
+.grid-item {
+    border: solid 3px blue;
+    padding: 8px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    display: inline; 
+    padding: 8px;
+}
+
+h1 {
+    text-align: center;
+}
