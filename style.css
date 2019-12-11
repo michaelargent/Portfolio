@@ -32,7 +32,7 @@ a {
     font-size: 7em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-    padding: 10%
+    padding: 10%;
 }
 
  .statue {
@@ -46,8 +46,19 @@ a {
   } 
 
   .application-screenshot {
-    width: 70%
+    width: 70%;
   }
+
+  .contact-linkedin {
+    max-height: 7vw;
+    max-width:7vw;
+  }
+
+  .contact-github {
+    max-height: 7vw;
+    max-width: 7vw;
+    
+}
 
   .container {
     font-family: 'Montserrat', sans-serif;
