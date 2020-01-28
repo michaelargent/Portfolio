@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <head>
     <meta charset="utf-8">
@@ -19,43 +19,42 @@
 
     <div class="container">
         <div class=landing-page>
-            <p class = "name">MICHAEL ARGENT</p>
+            <h1 class = "name">MICHAEL ARGENT</h1>
             <nav>
-                <a href="Biography.asp">BIOGRAPHY</a></li>
-                <a href="projects.asp">PROJECTS</a></li>
-                <a href="contact.asp">CONTACT</a></li>
+                <a class="btn" href="#biography">BIOGRAPHY</a></li>
+                <a class="btn" href="#projects">PROJECTS</a></li>
+                <a class="btn" href="#contact">CONTACT</a></li>
             </nav>
-
             <img src="./images/Statue.png" class="statue">
         </div>
         <div class="grid-container">
-            <div class="grid-item">
+            <div class="grid-item" id="biography">
                 <h3 class ="grid-title">BIOGRAPHY</h3>
                 <p>Michael is an experienced Engineering Consultant with a demonstrated history of working in the Legal Information Technology industry. Intrinsically motivated by his natural enthusiasm and curiosity for IT, he has quickly honed skills in System and Database Administration, Application Support, Cloud Computing. Now after working in IT for several years, Michael has enrolled in Thinkful's Full Stack Engineering program with the goal of re-focusing his career to Software Development.</p> 
                     
                 <p>With his background’s roots in Communication and the Fine Arts, Michael offers a unique communicative, collaborative, innovative, and design-oriented approach to Software Development. Michael’s distinctive blend of friendly professionalism and adept technical caliber has lead him into client-facing project leadership roles and training roles. Michael aspires to endlessly learn and continue to formulate inventive technological products and solutions in Software Development industry.</p>
             </div>
             <div class="grid-item">
-                <div class="project-one">
-                <h3 class ="grid-title">PROJECTS</h3>
+                <div class="project">
+                <h3 class ="grid-title" id="projects">PROJECTS</h3>
                 <p><b>thisDate</b> - An application which renders a list of events that occurred on a particular day in history, as well as generates an image of the sky on that day.</p>
                 <p>Skills Used: HTML, CSS, JavaScript, jQuery, & RESTful APIs</p>
                 <a href="https://michaelargent.github.io/thisDate-Application/">Link to thisDate</a>
                 <a href="https://github.com/michaelargent/thisDate-Application">Link to the code behind thisDate</a>
                 <img src= "./images/thisDate.JPG" class="application-screenshot" alt="Screenshot of Application">
                 </div>
-                <div class="project-two">
-                    <p>The Chemistry of Skin Care Quiz - A simple Quiz application that tests the user's knowledge of Chemistry in regards to skin care.</p>
-                    <p>Skills Used: HTML, CSS, JavaScript, & jQuery</p>
+                <div class="project">
+                  <p><b>The Chemistry of Skin Care Quiz</b> - A simple Quiz application that tests the user's knowledge of Chemistry in regards to skin care.</p>
+                  <p>Skills Used: HTML, CSS, JavaScript, & jQuery</p>
+                  <div class = "application-links">
                     <a href="https://michaelargent.github.io/ChemistryofSkinCare/">Link to thisDate</a>
                     <a href=" https://github.com/michaelargent/ChemistryofSkinCare">Link to the code behind thisDate</a>
-                    <img src= "./images/chemistryOfSkinCare.JPG" class="application-screenshot" alt="Screenshot of Application">
-
-
+                </div>
+                <img src= "./images/chemistryOfSkinCare.JPG" class="application-screenshot" alt="Screenshot of Application">
                 </div>
             </div>
             <div class="grid-item">
-                <h3 class ="grid-title">CONTACT ME</h3>
+                <h3 class ="grid-title" id="contact">CONTACT ME</h3>
                 <p>michael.r.argent@gmail.com</p>
                 <a href="https://www.linkedin.com/in/michael-r-argent/" target="_blank">
                 <img src= "./images/linkedin.png" class="contact-linkedin" alt="Screenshot of Application">
